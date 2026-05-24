@@ -7,7 +7,8 @@
 **This is a fork of the Arduino Core supporting debugging in the
   Arduino IDE 2 (and elsewhere) by means of
   [PyAvrOCD](https://pyavrocd.io). The only differences are found in
-  platofrm.txt, boards.txt, and programmers.txt**
+  platofrm.txt, boards.txt, and programmers.txt. In addition, a more
+  recent version of avrdude is used.**
 
 ------
 
