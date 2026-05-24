@@ -8,8 +8,12 @@
   Arduino IDE 2 (and elsewhere) by means of
   [PyAvrOCD](https://pyavrocd.io). The only differences are found in
   platofrm.txt, boards.txt, and programmers.txt. In addition, a more
-  recent version of avrdude is used.**
-
+  recent version of avrdude is used. If you want to try it out (on
+  your own risk), then add the following URL to the list of
+  *Additional boards manager URLs***:
+```
+https://felias-fogg.github.io/ArduinoCore-megaavr/package_felias-fogg_ArduinoCore-megaavr_index.json
+```
 ------
 
 This repository contains the source code and configuration files of the Arduino Core
