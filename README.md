@@ -2,6 +2,15 @@
 
 [![Compile MuxTO status](https://github.com/arduino/ArduinoCore-megaavr/actions/workflows/compile-muxto.yml/badge.svg)](https://github.com/arduino/ArduinoCore-megaavr/actions/workflows/compile-muxto.yml)
 
+------
+
+**This is a fork of the Arduino Core supporting debugging in the
+  Arduino IDE 2 (and elsewhere) by means of
+  [PyAvrOCD](https://pyavrocd.io). The only differences are found in
+  platofrm.txt, boards.txt, and programmers.txt**
+
+------
+
 This repository contains the source code and configuration files of the Arduino Core
 for Microchip's ATMEGA4809 processor (used on the Arduino Uno WiFi Rev2 boards).
 

@@ -6,7 +6,7 @@
 # https://arduino.github.io/arduino-cli/latest/platform-specification/
 
 name=Arduino megaAVR Boards
-version=1.8.8
+version=1.9.0-pre1
 
 # AVR compile variables
 # ---------------------
