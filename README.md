@@ -2,6 +2,16 @@
 
 [![Compile MuxTO status](https://github.com/arduino/ArduinoCore-megaavr/actions/workflows/compile-muxto.yml/badge.svg)](https://github.com/arduino/ArduinoCore-megaavr/actions/workflows/compile-muxto.yml)
 
+
+> [!IMPORTANT]
+> **This fork is deprecated.** Debugging the Arduino megaAVR boards (Uno Wifi Rev2, Nano Every) in the Arduino IDE 2 is now provided by the **[AvrDebugger](https://github.com/felias-fogg/AvrDebugger)** package, which works together with the official *Arduino megaAVR Boards* and brings the debug tools along. To switch over:
+>
+> 1. Remove `https://felias-fogg.github.io/ArduinoCore-megaavr/package_felias-fogg_ArduinoCore-megaavr_index.json` from the `Additional boards manager URLs` in the `Preferences` dialog.
+> 2. In the `Boards Manager`, select a 1.8.x version of *Arduino megaAVR Boards* (the official one) and install it. This replaces the fork, whose version number (1.9.0-pre2) is higher than the official ones.
+> 3. Add `https://felias-fogg.github.io/AvrDebugger/package_felias-fogg_AvrDebugger_index.json` to the `Additional boards manager URLs` and install *megaAvrDebugger* in the `Boards Manager`. Then choose one of its boards, e.g., *Arduino Uno WiFi Rev2 (debug)*.
+>
+> The text below describes the fork as it was.
+
 ------
 
 **This is a fork of the Arduino Core supporting debugging in the
@@ -11,6 +21,7 @@
   recent version of avrdude is used. If you want to try it out (on
   your own risk), then add the following URL to the list of
   *Additional boards manager URLs***:
+
 ```
 https://felias-fogg.github.io/ArduinoCore-megaavr/package_felias-fogg_ArduinoCore-megaavr_index.json
 ```
